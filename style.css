@@ -368,6 +368,7 @@ section {
 .education-header {
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
     gap: 1rem;
     margin-bottom: 1.5rem;
 }
@@ -376,7 +377,7 @@ section {
     width: 3rem;
     height: 3rem;
     min-width: 3rem;
-    padding: 0.75rem;
+    padding: 0.15rem;
     background-color: rgba(88, 166, 255, 0.1);
     border-radius: 0.5rem;
     color: var(--primary);
@@ -395,6 +396,8 @@ section {
 .graduation {
     color: var(--muted-foreground);
     font-size: 0.95rem;
+    white-space: nowrap;
+    margin-left: auto;
 }
 
 .education-desc {
